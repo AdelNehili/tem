@@ -18,7 +18,7 @@ for index in range(0,len(my_keys)):
     my_dico_1[current_key] = current_value
 
 #Easy
-my_dico_2 = zip(my_keys,my_values)
+my_dico_3 = zip(my_keys,my_values)
 
 for key in my_dico_1.keys():
     pretty_sentence = f"key : {key}; my_dico_1[{key}] : {my_dico_1[key]}"
